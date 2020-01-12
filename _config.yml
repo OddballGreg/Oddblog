@@ -17,8 +17,8 @@ title: Oddblog
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Oddball Software Development Experiments by an Oddball of a Software Developer.
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "havenga.dev" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: / # the subpath of your site, e.g. /blog
+url: "https://havenga.dev" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: oddballgreg
 github_username:  oddballgreg
 
@@ -30,6 +30,7 @@ remote_theme: broccolini/swiss
 
 plugins:
   - jekyll-feed
+  - jekyll-github-metadata
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

@@ -248,6 +248,7 @@ DEPENDENCIES
   faraday (= 0.17.3)
   github-pages
   jekyll-feed (~> 0.6)
+  jekyll-github-metadata
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.0)
