@@ -172,7 +172,7 @@ Github Pages is an awesome little bit of functionality provided by Github to ser
 
 You might notice that's not the URL you're at right now. I'd picked up [havenga.dev](havenga.dev) at a good price from Namecheap a while back when I first thought about writing a dev blog, and after a day of learning to understand what on earth ANAME and CNAME records are, as well as a variety of other DNS related tidbits, set that domain to permanently redirect to the Github Pages url for this blog.
 
-You'll need to enable the Github Pages functionality (and inform Github of your desire to use your own URL if you care to) on the primary settings page of your repository. Make sure to enable HTTPS as well since, well, there's really no reason your web assets shouldn't be using HTTPS in this day and age. Your account will need to be verrified and a few extra details filled in before GitHub will let you finish this configuration.
+You'll need to enable the Github Pages functionality (and inform Github of your desire to use your own URL if you care to) on the primary settings page of your repository. Make sure to enable HTTPS as well since, well, there's really no reason your web assets shouldn't be using HTTPS in this day and age. Your account will need to be verified and a few extra details filled in before GitHub will let you finish this configuration.
 
 {% include figure image_path="/assets/images/2020/07/16/github_config.png" alt="Github's Github Pages settings" caption="The Github repository settings for enabling Github Pages" %}
 
