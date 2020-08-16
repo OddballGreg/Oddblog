@@ -24,18 +24,14 @@ baseurl: / # the subpath of your site, e.g. /blog
 url: "https://havenga.dev" # the base hostname & protocol for your site, e.g. http://example.com
 twitter:
   username: oddballgreg
-github:
-  username:  oddballgreg
+# github:
+#   username:  oddballgreg
 timezone: Africa/Johannesburg
 
 repository: OddballGreg/oddballgreg.github.io
 # Build settings
 markdown: kramdown
-# theme: minima
-# remote_theme: broccolini/swiss
-# remote_theme: "mmistakes/minimal-mistakes@4.20.1"
-# remote_theme: mmistakes/minimal-mistakes
-remote_theme: mmistakes/minimal-mistakes
+remote_theme: "mmistakes/minimal-mistakes@4.20.1"
 
 plugins:
   - jekyll-feed
