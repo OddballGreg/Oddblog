@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Building A Jekyll Blog as lazily as possible"
+title:  "Building a Jekyll Blog as lazily as possible"
 date:   2020-07-16 17:03:00 +0200
 categories: jekyll update blog
 ---
