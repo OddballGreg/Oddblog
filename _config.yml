@@ -13,33 +13,125 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Oddblog
+title: Havenga.dev
+name: Gregory Havenga
 email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Oddball Software Development Experiments by an Oddball of a Software Developer.
+Description: >- # this means to ignore newlines until "baseurl:"
+  Software Development Experiments and Learnings by Gregory Havenga.
+subtitle: >- # this means to ignore newlines until "baseurl:"
+  Software Development Experiments and Learnings
 baseurl: / # the subpath of your site, e.g. /blog
 url: "https://havenga.dev" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: oddballgreg
-github_username:  oddballgreg
+twitter:
+  username: oddballgreg
+github:
+  username:  oddballgreg
+timezone: Africa/Johannesburg
 
-
+repository: OddballGreg/oddballgreg.github.io
 # Build settings
 markdown: kramdown
 # theme: minima
-remote_theme: broccolini/swiss
+# remote_theme: broccolini/swiss
+remote_theme: "mmistakes/minimal-mistakes@4.20.1"
 
 plugins:
   - jekyll-feed
   - jekyll-github-metadata
+  - jekyll-include-cache
+
+minimal_mistakes_skin: "neon" # "air", "aqua", "contrast", "dark", "dirt", "default", "mint", "plum" "sunrise"
+
+locale: en-GB
+
+permalink: /:categories/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+
+teaser: /assets/images/programming.png
+
+# logo: "/assets/images/88x88.png" #little logo before site title
+
+# breadcrumbs: true  # disabled by default
+
+search: true
+
+social:
+  type:  Person
+  name:  Gregory Havenga
+  links:
+    - "https://twitter.com/OddballGreg"
+    - "https://github.com/OddballGreg"
+    - "https://www.linkedin.com/in/gregory-havenga/"
+
+# analytics:
+#   provider: "google-gtag"
+#   google:
+#     tracking_id: "UA-1234567-8"
+#     anonymize_ip: false # default
+
+author:
+  name     : "Gregory Havenga"
+  # avatar   : "/assets/images/cropped-programmer-me.jpeg"
+  avatar   : "/assets/images/programmer-me-face-only.jpeg"
+  bio      : "Generalist Software Developer for <nobr>F-Secure Consulting<nobr>.<br>WeThinkCode_ 2016 Alumni.<br>Unsubtle Ruby fanboy."
+  location : "Johannesburg, South Africa"
+  links:
+    - label: "Linkedin"
+      icon: "fab fa-linkedin-in"
+      url: "https://www.linkedin.com/in/gregory-havenga/"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/OddballGreg"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github-alt"
+      url: "https://github.com/OddballGreg"
+    # - label: "Instagram"
+    #   icon: "fab fa-fw fa-instagram"
+    #   url: "https://instagram.com/mmistakes"
+
+include: ["_pages"]
+
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      author_profile: true
+      show_date: true
+      read_time: true
+
+footer:
+  links:
+    - label: "Linkedin"
+      icon: "fab fa-linkedin-in"
+      url: "https://www.linkedin.com/in/gregory-havenga/"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/OddballGreg"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github-alt"
+      url: "https://github.com/OddballGreg"
+    # - label: "Instagram"
+    #   icon: "fab fa-fw fa-instagram"
+    #   url: "https://instagram.com/mmistakes"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
