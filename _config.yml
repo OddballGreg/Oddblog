@@ -35,7 +35,7 @@ markdown: kramdown
 # remote_theme: broccolini/swiss
 # remote_theme: "mmistakes/minimal-mistakes@4.20.1"
 # remote_theme: mmistakes/minimal-mistakes
-remote_theme: minimal-mistakes-jekyll
+remote_theme: mmistakes/minimal-mistakes
 
 plugins:
   - jekyll-feed
