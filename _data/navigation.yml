@@ -1,6 +1,10 @@
 main:
-  - title: "About"
-    url: /about/
+  - title: "About Me"
+    url: /about_me/
+  - title: "Experience"
+    url: /experience/
+  - title: "Projects"
+    url: /projects/
   # - title: "Posts"
   #   url: /year-archive/
   # - title: "Categories"

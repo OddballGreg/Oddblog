@@ -1,6 +1,6 @@
 ---
-title: About
-permalink: /about/
+title: About Me
+permalink: /about_me/
 ---
 
 As a software developer hailing from South Africa's very own Johannesburg, I graduated as one of 120 students in WeThinkCode_'s very first software development student cohort (2016 to 2018).
