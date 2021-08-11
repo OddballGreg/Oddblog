@@ -5,6 +5,10 @@ main:
     url: /experience/
   - title: "Projects"
     url: /projects/
+  - title: "Tools"
+    url: /tools_of_the_trade/
+  - title: "Recommeded Videogames"
+    url: /recommendations/videogames
   # - title: "Posts"
   #   url: /year-archive/
   # - title: "Categories"
