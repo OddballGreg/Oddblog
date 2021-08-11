@@ -7,7 +7,7 @@ main:
     url: /projects/
   - title: "Tools"
     url: /tools_of_the_trade/
-  - title: "Recommeded Videogames"
+  - title: "Recommended Videogames"
     url: /recommendations/videogames
   # - title: "Posts"
   #   url: /year-archive/
