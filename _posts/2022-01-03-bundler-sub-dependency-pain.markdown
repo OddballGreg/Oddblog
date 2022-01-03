@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Bundler Sub Dependency Pain"
-date:   2021-01-03 16:38:00 +0200
+date:   2022-01-03 16:38:00 +0200
 categories: bundler
 ---
 
