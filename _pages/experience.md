@@ -4,7 +4,7 @@ permalink: /experience/
 ---
 
 ## <nobr>Associate Software Developer</nobr> at [<nobr>F-Secure Consulting</nobr>](https://www.linkedin.com/company/f-secure-consulting/), Rivonia
-*(Previously [<nobr>MWR Infosecurity</nobr>](https://www.linkedin.com/company/mwr-infosecurity/))*<br>*January 2019 - Present (2 Years)*
+*(Previously [<nobr>MWR Infosecurity</nobr>](https://www.linkedin.com/company/mwr-infosecurity/))*<br>*January 2019 - Present (3 Years)*
 
 Spearheaded design, development and deployment of a variety of secure internal platforms and services to better facilitate business within the consultancy business unit.
 
