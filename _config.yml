@@ -72,7 +72,7 @@ author:
   name     : "Gregory Havenga"
   # avatar   : "/assets/images/cropped-programmer-me.jpeg"
   avatar   : "/assets/images/programmer-me-face-only.jpeg"
-  bio      : "Generalist Software Developer for <nobr>F-Secure Consulting<nobr>.<br>WeThinkCode_ 2016 Alumni.<br>Unsubtle Ruby fanboy."
+  bio      : "Backend Developer for <nobr>GitLab<nobr>.<br>WeThinkCode_ 2016 Alumni.<br>Unsubtle Ruby fanboy."
   location : "Johannesburg, South Africa"
   links:
     - label: "Linkedin"
